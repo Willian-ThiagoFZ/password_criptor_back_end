@@ -5,7 +5,7 @@
 <p align="center"> Front-End -> <a href="https://github.com/Willian-ThiagoFZ/password_cryptor_front_end">🔗 Password Cryptor (NuxtJS)</a></p>
 
 ## DEPENDENCIAS:
-<p> Node.js v14 </p>
+<p> Node.js v14 ou Superior</p>
 
 ## Build Setup
 
@@ -17,6 +17,10 @@ $ cd password_criptor_back_end
 
 # Install Dependencies
 $ npm install
+
+# Configure SQLite Database
+$ npm i @adonisjs/lucid
+$ node ace configure @adonisjs/lucid // # Com isso Selecione a Opção "SQLITE", e depois "In the Terminal"
 
 # Run Migrations (SQLite DB path: 'tmp/db.sqlite3')
 $ node ace migration:run

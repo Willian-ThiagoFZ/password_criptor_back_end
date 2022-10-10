@@ -28,4 +28,6 @@ $ node ace migration:run
 # serve with hot reload at localhost:3000
 $ npm run dev
 
+# Use http://127.0.0.1:3333 para ter acesso a API no Insomnia.
+
 ```
